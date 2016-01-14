@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5FAA65A1C47C48A00A76F7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAA6591C47C48A00A76F7A /* AppDelegate.swift */; };
+		D5FAA65C1C47C48A00A76F7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAA65B1C47C48A00A76F7A /* ViewController.swift */; };
+		D5FAA65F1C47C48A00A76F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FAA65D1C47C48A00A76F7A /* Main.storyboard */; };
+		D5FAA6611C47C48A00A76F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FAA6601C47C48A00A76F7A /* Assets.xcassets */; };
+		D5FAA6641C47C48A00A76F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FAA6621C47C48A00A76F7A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5FAA6561C47C48A00A76F7A /* TFcontacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFcontacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FAA6591C47C48A00A76F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5FAA65B1C47C48A00A76F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5FAA65E1C47C48A00A76F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5FAA6601C47C48A00A76F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5FAA6631C47C48A00A76F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5FAA6651C47C48A00A76F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5FAA6531C47C48A00A76F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5FAA64D1C47C48A00A76F7A = {
+			isa = PBXGroup;
+			children = (
+				D5FAA6581C47C48A00A76F7A /* TFcontacts */,
+				D5FAA6571C47C48A00A76F7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5FAA6571C47C48A00A76F7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5FAA6561C47C48A00A76F7A /* TFcontacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FAA6581C47C48A00A76F7A /* TFcontacts */ = {
+			isa = PBXGroup;
+			children = (
+				D5FAA6591C47C48A00A76F7A /* AppDelegate.swift */,
+				D5FAA65B1C47C48A00A76F7A /* ViewController.swift */,
+				D5FAA65D1C47C48A00A76F7A /* Main.storyboard */,
+				D5FAA6601C47C48A00A76F7A /* Assets.xcassets */,
+				D5FAA6621C47C48A00A76F7A /* LaunchScreen.storyboard */,
+				D5FAA6651C47C48A00A76F7A /* Info.plist */,
+			);
+			path = TFcontacts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5FAA6551C47C48A00A76F7A /* TFcontacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FAA6681C47C48A00A76F7A /* Build configuration list for PBXNativeTarget "TFcontacts" */;
+			buildPhases = (
+				D5FAA6521C47C48A00A76F7A /* Sources */,
+				D5FAA6531C47C48A00A76F7A /* Frameworks */,
+				D5FAA6541C47C48A00A76F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFcontacts;
+			productName = TFcontacts;
+			productReference = D5FAA6561C47C48A00A76F7A /* TFcontacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5FAA64E1C47C48A00A76F7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ricardo Rodriguez P.";
+				TargetAttributes = {
+					D5FAA6551C47C48A00A76F7A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D5FAA6511C47C48A00A76F7A /* Build configuration list for PBXProject "TFcontacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5FAA64D1C47C48A00A76F7A;
+			productRefGroup = D5FAA6571C47C48A00A76F7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5FAA6551C47C48A00A76F7A /* TFcontacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5FAA6541C47C48A00A76F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FAA6641C47C48A00A76F7A /* LaunchScreen.storyboard in Resources */,
+				D5FAA6611C47C48A00A76F7A /* Assets.xcassets in Resources */,
+				D5FAA65F1C47C48A00A76F7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5FAA6521C47C48A00A76F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FAA65C1C47C48A00A76F7A /* ViewController.swift in Sources */,
+				D5FAA65A1C47C48A00A76F7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5FAA65D1C47C48A00A76F7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5FAA65E1C47C48A00A76F7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5FAA6621C47C48A00A76F7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5FAA6631C47C48A00A76F7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5FAA6661C47C48A00A76F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5FAA6671C47C48A00A76F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5FAA6691C47C48A00A76F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFcontacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = software507.TFcontacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5FAA66A1C47C48A00A76F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFcontacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = software507.TFcontacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5FAA6511C47C48A00A76F7A /* Build configuration list for PBXProject "TFcontacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FAA6661C47C48A00A76F7A /* Debug */,
+				D5FAA6671C47C48A00A76F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5FAA6681C47C48A00A76F7A /* Build configuration list for PBXNativeTarget "TFcontacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FAA6691C47C48A00A76F7A /* Debug */,
+				D5FAA66A1C47C48A00A76F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5FAA64E1C47C48A00A76F7A /* Project object */;
+}
