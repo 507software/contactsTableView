@@ -12,6 +12,7 @@
 		D5FAA65F1C47C48A00A76F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FAA65D1C47C48A00A76F7A /* Main.storyboard */; };
 		D5FAA6611C47C48A00A76F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FAA6601C47C48A00A76F7A /* Assets.xcassets */; };
 		D5FAA6641C47C48A00A76F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FAA6621C47C48A00A76F7A /* LaunchScreen.storyboard */; };
+		D5FAA66C1C4813B200A76F7A /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FAA66B1C4813B200A76F7A /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D5FAA6601C47C48A00A76F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5FAA6631C47C48A00A76F7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5FAA6651C47C48A00A76F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FAA66B1C4813B200A76F7A /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D5FAA6591C47C48A00A76F7A /* AppDelegate.swift */,
 				D5FAA65B1C47C48A00A76F7A /* ViewController.swift */,
 				D5FAA65D1C47C48A00A76F7A /* Main.storyboard */,
+				D5FAA66B1C4813B200A76F7A /* ContactsTableViewController.swift */,
 				D5FAA6601C47C48A00A76F7A /* Assets.xcassets */,
 				D5FAA6621C47C48A00A76F7A /* LaunchScreen.storyboard */,
 				D5FAA6651C47C48A00A76F7A /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				D5FAA65C1C47C48A00A76F7A /* ViewController.swift in Sources */,
 				D5FAA65A1C47C48A00A76F7A /* AppDelegate.swift in Sources */,
+				D5FAA66C1C4813B200A76F7A /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
