@@ -12,6 +12,14 @@ class ContactsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let ct1 = Contact(name: "Rik", phoneNumber: "")
+        let ct2 = Contact(name: nil, phoneNumber: "555556666")
+        let ct3 = Contact(name: "Bbk", phoneNumber: "123456")
+        
+        self.contactArray.append(ct1)
+        self.contactArray.append(ct2)
+        self.contactArray.append(ct3)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -24,6 +32,8 @@ class ContactsTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    var contactArray : [Contact] = []
 
     // MARK: - Table view data source
 
@@ -34,7 +44,7 @@ class ContactsTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return contactArray.count
     }
 
     
@@ -42,8 +52,12 @@ class ContactsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
 
         // Configure the cell...
-        cell.textLabel?.text = "A fine example of UITableViewCell"
-
+        let contact = self.contactArray[indexPath.row]
+        if let name = contact.name{
+            cell.textLabel?.text = name
+        }else{
+            cell.textLabel?.text = "No name"
+        }
         return cell
     }
     
