@@ -20,6 +20,9 @@ class ContactsTableViewController: UITableViewController {
         self.contactArray.append(ct1)
         self.contactArray.append(ct2)
         self.contactArray.append(ct3)
+        
+        let moveButton = UIBarButtonItem(barButtonSystemItem: .Edit, target: self , action: Selector("toggleEdit"))
+        navigationItem.leftBarButtonItem = moveButton
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -61,11 +64,43 @@ class ContactsTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return true
+    }
+    
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == .Delete{
+            self.contactArray.removeAtIndex(indexPath.row)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+        }
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let indexPath  = self.tableView.indexPathForCell(sender as! UITableViewCell)!
         let contact = self.contactArray[indexPath.row]
         let destination = segue.destinationViewController as! DetailViewController
         destination.contact = contact
+    }
+    
+    func toggleEdit() {
+        tableView.setEditing(!tableView.editing, animated: true)
+    }
+    
+    override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
+        let contactMoving = contactArray.removeAtIndex(sourceIndexPath.row)
+        contactArray.insert(contactMoving, atIndex: destinationIndexPath.row)
+    }
+    
+    override func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
+        if tableView.editing {
+            return .None
+        } else {
+            return .Delete
+        }
+    }
+    
+    override func tableView(tableView: UITableView, shouldIndentWhileEditingRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return false
     }
     
 
